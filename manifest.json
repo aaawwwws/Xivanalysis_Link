@@ -1,0 +1,16 @@
+{
+    "name": "FFanly",
+    "description": "アナライシスに飛ぶボタンを作成します。",
+    "version": "1.0",
+    "manifest_version": 3,
+
+"content_scripts":[
+    {
+        "matches": ["*://ja.fflogs.com/reports/**"],
+        
+        "js": [
+            "contents.js"
+        ]
+    }
+]
+}
