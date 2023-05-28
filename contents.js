@@ -12,9 +12,9 @@ let a_tag = document.createElement("a");
 
 //属性を追加
 a_tag.setAttribute("href","https://xivanalysis.com/fflogs/" + Logs_Pn[2] + "/" + Logs_Hash_Int);
-
+a_tag.setAttribute("target", "_blank");
 //aタグ要素とその中にテキスト情報を追加
 a_tag.innerHTML = "xivanalysisで表示";
 
-//elem要素の下に新規のnewElem要素を挿入
+//elem要素の下に新規のa_tagを追加
 Div.insertBefore(a_tag, null);
